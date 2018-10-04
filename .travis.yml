@@ -8,7 +8,7 @@ branches:
 notifications:
   email:
     recipients:
-    - dv.riofrio@alumnos.upm.es
+    - dv.riofrio@alumnos.upm.miw
 script:
 - mvn verify
 - mvn org.jacoco:jacoco-maven-plugin:prepare-agent verify
