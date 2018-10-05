@@ -18,13 +18,16 @@ public class C31Test {
         Assertions.assertEquals("m1", c31.m1());
     }
 
+
     @Test
     void testM2() {
         Assertions.assertEquals("m2", c31.m2());
     }
 
+
     @Test
     void testMB() {
         Assertions.assertEquals("mB", c31.mB());
     }
+
 }
